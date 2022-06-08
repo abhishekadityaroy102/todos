@@ -1,0 +1,46 @@
+.main{
+  width: 400px;;
+  margin: auto;
+ border:1px solid whitesmoke ;
+  margin-top: 100px;
+  background-color: rgb(185, 179, 179);
+  height: 500px;
+  overflow: hidden;
+  overflow-y: visible;
+  ;
+}
+.main::-webkit-scrollbar {
+    display: none;
+  }
+.main input{
+    width: 68%;
+    height: 44px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+.inputbox{
+    margin-top: 20px;
+}
+.main button{
+    height: 50px;
+    width: 40px;
+    margin-left: 7px;
+    border-radius: 4px;
+}
+.list{
+    height: 40px;
+    border:1px solid black;
+    width: 90%;
+    margin:auto;
+    margin-right: 70px;
+    border-radius: 5px;
+}
+.list li{
+    list-style:none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-bottom: 12px;
+    background-color: whitesmoke;
+}
